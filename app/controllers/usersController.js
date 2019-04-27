@@ -3,7 +3,8 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const SECRET = 'AWESOMETIMEOFF';
 
-const index = function(req, res) {
+const index = function (req, res) {
+  
     res.send('NOT IMPLEMENTED: Site Home Page');
 };
 
